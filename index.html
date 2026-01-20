@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    
+    <!-- SEO & Search Engine Optimization -->
+    <title>د. علي عبدالله | استشاري جراحة المخ والأعصاب والعمود الفقري (أونلاين)</title>
+    
+    <meta name="description" content="د. علي عبدالله (زمالة لندن): استشاري جراحة مخ وأعصاب. استشارات طبية مرئية وتشخيص دقيق عن بعد.">
+    
+     <meta name="keywords" content="
+    دكتور مخ وأعصاب, جراح مخ وأعصاب, دكتور عمود فقري, استشارة مخ وأعصاب أونلاين, دكتور علي عبدالله,
+    الانزلاق الغضروفي, الديسك, عرق النسا, ألم الظهر, ألم الرقبة, تثبيت الفقرات, ضيق القناة الشوكية,
+    أورام المخ, ورم الغدة النخامية, أورام قاع الجمجمة, الورم السحائي, الورم الدبقي,
+    الصرع, التشنجات, كهرباء المخ, استسقاء الرأس, تركيب صمام المخ,
+    نزيف المخ, جلطة المخ, تمدد الأوعية الدموية بالمخ, التشوه الشرياني الوريدي,
+    ألم العصب الخامس, التهاب الأعصاب الطرفية, تنميل اليدين, متلازمة النفق الرسغي,
+    كسور الجمجمة, كسور العمود الفقري, اعوجاج العمود الفقري, الجنف, الحدب,
+    جراحة ميكروسكوبية, جراحة بالمنظار, التردد الحراري, حقن الفقرات,
+    أفضل دكتور مخ وأعصاب في السودان, دكتور مخ وأعصاب مصري, استشارة واتساب, عيادة إلكترونية,
+    Neurosurgery, Spine Surgery, Online Consultation, Telemedicine, FRCS Neuro
+    ">
+    <meta name="author" content="Dr. Ali Abdullah">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="د. علي عبدالله | عيادة المخ والأعصاب الرقمية">
+    <meta property="og:description" content="استشارة طبية متخصصة من لندن ودبلن وأنت في منزلك.">
+    <meta property="og:type" content="website">
+    
+    <!-- Schema.org Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Physician",
+      "name": "Dr. Ali Abdullah",
+      "medicalSpecialty": ["NeurologicalSurgery", "SpinalSurgery"],
+      "availableService": ["OnlineConsultation", "SecondOpinion", "MRIInterpretation"],
+      "description": "Consultant Neurosurgeon providing international telemedicine services."
+    }
+    </script>
+    
+    <!-- Libraries -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Tailwind Custom Config -->
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0f172a',    /* Dark Navy */
+                        secondary: '#334155',  /* Slate */
+                        accent: '#0d9488',     /* Teal */
+                        accentDark: '#0f766e',
+                        surface: '#ffffff',
+                    },
+                    fontFamily: {
+                        sans: ['Tajawal', 'sans-serif'],
+                        english: ['Outfit', 'sans-serif'],
+                    },
+                    screens: {
+                        'xs': '375px',
+                        'sm': '640px',
+                        'md': '768px',
+                        'lg': '1024px',
+                        'xl': '1280px',
+                        '2xl': '1536px',
+                    },
+                    animation: {
+                        'scroll': 'scroll 50s linear infinite',
+                        'float': 'float 6s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        scroll: { '0%': { transform: 'translateX(0)' }, '100%': { transform: 'translateX(100%)' } },
+                        float: { '0%, 100%': { transform: 'translateY(0)' }, '50%': { transform: 'translateY(-15px)' } }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Base Styles */
+        body { 
+            background-color: #ffffff; 
+            overflow-x: hidden; 
+            cursor: default; 
+            transition: background-color 0.3s ease, color 0.3s ease;
+            -webkit-tap-highlight-color: transparent;
+        }
+        html.dark body { background-color: #0b1120; color: #e2e8f0; }
+
+        /* Tech Background Pattern */
+        .tech-bg {
+            position: fixed; inset: 0; z-index: -2;
+            background-size: 40px 40px;
+            background-image: linear-gradient(to right, rgba(13,148,136,0.03) 1px, transparent 1px), linear-gradient(to bottom, rgba(13,148,136,0.03) 1px, transparent 1px);
+            mask-image: radial-gradient(circle at center, black 40%, transparent 80%);
+        }
+        html.dark .tech-bg { background-image: linear-gradient(to right, rgba(255,255,255,0.02) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.02) 1px, transparent 1px); }
+
+        /* Aurora Blobs */
+        .blob { position: absolute; filter: blur(90px); opacity: 0.5; z-index: -1; animation: float 12s infinite ease-in-out; }
+        .blob-1 { background: #dcfce7; width: 300px; height: 300px; top: -50px; left: -50px; }
+        .blob-2 { background: #dbeafe; width: 300px; height: 300px; top: 20%; right: -50px; animation-delay: -5s; }
+        @media (min-width: 768px) {
+            .blob-1 { width: 600px; height: 600px; }
+            .blob-2 { width: 500px; height: 500px; }
+        }
+        html.dark .blob-1 { background: #115e59; opacity: 0.15; } 
+        html.dark .blob-2 { background: #1e3a8a; opacity: 0.15; }
+        @keyframes float { 
+            0%, 100% { transform: translate(0, 0) scale(1); } 
+            50% { transform: translate(20px, -20px) scale(1.05); } 
+        }
+
+        /* Glassmorphism Cards */
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(16px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        html.dark .glass-panel {
+            background: rgba(30, 41, 59, 0.7); 
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+        }
+        .glass-panel:hover { transform: translateY(-5px); box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+
+        /* Infinite Scroll */
+        .conditions-slider { overflow: hidden; white-space: nowrap; position: relative; }
+        .conditions-slider::before, .conditions-slider::after {
+            content: ""; position: absolute; top: 0; width: 50px; height: 100%; z-index: 2;
+            pointer-events: none;
+        }
+        .conditions-slider::before { left: 0; background: linear-gradient(to right, var(--bg-fade), transparent); }
+        .conditions-slider::after { right: 0; background: linear-gradient(to left, var(--bg-fade), transparent); }
+        body { --bg-fade: #ffffff; }
+        html.dark body { --bg-fade: #0b1120; }
+
+        /* Lightbox */
+        .lightbox { display: none; position: fixed; z-index: 2000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.95); justify-content: center; align-items: center; }
+        .lightbox.show { display: flex; animation: fadeIn 0.3s; }
+        .lightbox img { max-width: 95%; max-height: 85%; border-radius: 8px; }
+        .close-lightbox { position: absolute; top: 20px; right: 20px; color: #fff; font-size: 35px; cursor: pointer; padding: 10px; background: rgba(0,0,0,0.5); border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+        /* Chat Widget */
+        .chat-widget {
+            position: fixed; bottom: 90px; right: 5%; width: 90%; max-width: 350px; z-index: 60;
+            transform: translateY(20px); opacity: 0; pointer-events: none; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        @media (min-width: 768px) {
+            .chat-widget { bottom: 100px; right: 20px; width: 350px; }
+        }
+        .chat-widget.active { transform: translateY(0); opacity: 1; pointer-events: all; }
+
+        /* Cursor - Only on non-touch devices */
+        @media (hover: hover) and (pointer: fine) {
+            .cursor-dot, .cursor-outline { display: block; }
+        }
+        .cursor-dot, .cursor-outline { display: none; position: fixed; top: 0; left: 0; transform: translate(-50%, -50%); border-radius: 50%; z-index: 9999; pointer-events: none; }
+        .cursor-dot { width: 8px; height: 8px; background-color: #0d9488; }
+        .cursor-outline { width: 40px; height: 40px; border: 1px solid rgba(13, 148, 136, 0.5); transition: width 0.2s, height 0.2s, background-color 0.2s; }
+        body:hover .cursor-outline { opacity: 1; }
+
+        /* Typewriter Cursor */
+        .cursor { display: inline-block; width: 3px; height: 1em; background-color: #0d9488; animation: blink 1s infinite; vertical-align: sub; }
+        @keyframes blink { 50% { opacity: 0; } }
+
+        /* Triage Card Selection */
+        .triage-option:checked + div { border-color: #0d9488; background-color: rgba(13, 148, 136, 0.05); transform: scale(1.02); }
+        html.dark .triage-option:checked + div { background-color: rgba(13, 148, 136, 0.15); border-color: #0d9488; }
+        
+        /* 3D Tilt Cards (Desktop only) */
+        @media (min-width: 1024px) {
+            .tilt-card { transform-style: preserve-3d; transform: perspective(1000px); }
+        }
+    </style>
+</head>
+<body class="antialiased text-secondary dark:text-slate-300 relative">
+
+    <div class="tech-bg"></div>
+    <div id="scroll-progress"></div>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <!-- Preloader -->
+    <div id="preloader" class="fixed inset-0 bg-white dark:bg-slate-950 z-[9999] flex flex-col items-center justify-center transition-opacity duration-500">
+        <i class="fa-solid fa-brain text-5xl md:text-7xl text-accent mb-6 animate-pulse"></i>
+        <h1 class="text-3xl md:text-4xl font-bold text-primary dark:text-white">د. علي عبدالله</h1>
+        <p class="text-xs md:text-base text-gray-500 font-english tracking-[0.3em] mt-2 uppercase font-bold">Tele-Clinic</p>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 py-3 md:py-4 transition-all duration-300 glass-panel border-b-0 backdrop-blur-md" id="navbar">
+        <div class="container mx-auto px-4 md:px-6 flex justify-between items-center">
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-gradient-to-br from-primary to-slate-800 text-white flex items-center justify-center text-lg md:text-xl shadow-lg group-hover:rotate-12 transition">
+                    <i class="fa-solid fa-laptop-medical"></i>
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-bold text-primary dark:text-white text-base md:text-xl leading-none">د. علي عبدالله</span>
+                    <span class="text-[10px] md:text-xs text-accent font-bold mt-1 font-english">Online Consultant</span>
+                </div>
+            </a>
+
+            <!-- Desktop Menu -->
+            <div class="hidden lg:flex items-center gap-8 text-base font-bold">
+                <a href="#home" class="hover:text-accent transition">الرئيسية</a>
+                <a href="#about" class="hover:text-accent transition">عن الطبيب</a>
+                <a href="#media" class="hover:text-accent transition">ميديا</a>
+                <a href="#booking" class="px-6 py-2.5 rounded-full bg-accent text-white hover:bg-teal-700 transition shadow-lg shadow-teal-500/30">حجز موعد</a>
+                <button onclick="toggleTheme()" class="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-700 flex items-center justify-center transition hover:scale-110 border border-slate-200 dark:border-slate-600">
+                    <i class="fa-solid fa-moon dark:hidden text-slate-600"></i>
+                    <i class="fa-solid fa-sun hidden dark:block text-yellow-400"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="lg:hidden text-2xl text-primary dark:text-white p-2" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile Dropdown -->
+        <div id="mobile-menu" class="hidden lg:hidden absolute top-full left-0 w-full bg-white/95 dark:bg-slate-900/95 border-b border-slate-100 dark:border-slate-800 p-6 shadow-xl z-40 backdrop-blur-xl h-screen flex flex-col justify-center items-center gap-8">
+            <button class="absolute top-6 right-6 text-2xl text-slate-500" onclick="closeMenu()"><i class="fa-solid fa-xmark"></i></button>
+            <a href="#home" onclick="closeMenu()" class="text-xl font-bold hover:text-accent">الرئيسية</a>
+            <a href="#about" onclick="closeMenu()" class="text-xl font-bold hover:text-accent">عن الطبيب</a>
+            <a href="#media" onclick="closeMenu()" class="text-xl font-bold hover:text-accent">لقاءات وتوعية</a>
+            <a href="#booking" onclick="closeMenu()" class="py-3 px-8 bg-accent text-white rounded-full text-xl font-bold shadow-lg">حجز موعد</a>
+            <button onclick="toggleTheme()" class="text-base text-slate-500 mt-4 flex items-center justify-center gap-2 border py-2 px-6 rounded-full">
+                <i class="fa-solid fa-adjust"></i> تبديل المظهر
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="relative pt-28 md:pt-36 pb-16 min-h-screen flex items-center overflow-hidden">
+        <div class="container mx-auto px-4 md:px-6 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            <!-- Text Content -->
+            <div class="order-2 lg:order-1" data-aos="fade-left">
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/80 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-600 shadow-sm mb-8 backdrop-blur-sm">
+                    <span class="flex h-3 w-3 relative"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-teal-400 opacity-75"></span><span class="relative inline-flex rounded-full h-3 w-3 bg-teal-500"></span></span>
+                    <span class="text-xs md:text-sm font-bold text-primary dark:text-white tracking-wide">عيادة رقمية (أيرلندا - العالم)</span>
+                </div>
+                
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold text-primary dark:text-white leading-[1.2] mb-6">
+                    استشارة طبية عالمية<br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-l from-accent to-blue-600">وأنت في منزلك</span>
+                </h1>
+                
+                <div class="text-lg md:text-2xl font-bold text-slate-500 dark:text-slate-400 mb-8 h-8 flex items-center">
+                    <span class="me-2">متخصصون في:</span>
+                    <span id="typewriter-text" class="text-accent font-bold"></span><span class="cursor"></span>
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#booking" class="px-8 py-4 rounded-2xl bg-primary dark:bg-accent text-white font-bold hover:bg-slate-800 dark:hover:bg-teal-700 transition shadow-xl text-center flex justify-center items-center gap-3 text-lg">
+                        <span>ابدأ الاستشارة</span><i class="fa-solid fa-video"></i>
+                    </a>
+                    <button onclick="toggleChat()" class="px-8 py-4 rounded-2xl bg-white dark:bg-slate-800 text-primary dark:text-white border-2 border-slate-200 dark:border-slate-600 font-bold transition flex justify-center items-center gap-2 hover:bg-slate-50 dark:hover:bg-slate-700 text-lg">
+                        <i class="fa-solid fa-file-medical text-accent"></i> إرسال التقارير
+                    </button>
+                </div>
+
+                <div class="mt-10 flex items-center gap-8 border-t border-slate-200 dark:border-slate-800 pt-6">
+                    <div><h4 class="text-2xl md:text-3xl font-bold text-primary dark:text-white font-english">15+</h4><p class="text-[10px] md:text-xs text-slate-500 uppercase tracking-wider">سنة خبرة</p></div>
+                    <div><h4 class="text-2xl md:text-3xl font-bold text-primary dark:text-white font-english">1k+</h4><p class="text-[10px] md:text-xs text-slate-500 uppercase tracking-wider">عملية ناجحة</p></div>
+                </div>
+            </div>
+
+            <!-- Image Container (Visible on Mobile) -->
+            <div class="order-1 lg:order-2 relative" data-aos="zoom-in">
+                <div class="relative z-10 p-3 bg-white dark:bg-slate-800 rounded-[2.5rem] shadow-2xl rotate-1 lg:rotate-2 transition duration-700 hover:rotate-0 border border-slate-100 dark:border-slate-700">
+                    <img src="alia.png" class="w-full rounded-[2rem] object-cover grayscale hover:grayscale-0 transition duration-700 shadow-inner" alt="د. علي عبدالله">
+                    <!-- Badge hidden on small mobile, visible on md+ -->
+                    <div class="absolute bottom-6 -right-2 md:-right-6 glass-panel p-4 rounded-2xl shadow-lg flex items-center gap-3 border-r-4 border-accent bg-white/95 dark:bg-slate-800/95 max-w-[200px] md:max-w-none">
+                        <div class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-teal-50 dark:bg-slate-700 text-accent flex items-center justify-center text-xl"><i class="fa-solid fa-certificate"></i></div>
+                        <div>
+                            <p class="text-[10px] md:text-xs text-slate-500 font-bold uppercase">خبرة دولية</p>
+                            <p class="text-primary dark:text-white font-english font-bold text-xs md:text-sm">International Consultant</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Marquee Conditions (Expanded) -->
+    <section id="conditions" class="py-10 bg-white dark:bg-slate-950 border-y border-slate-200 dark:border-slate-800 overflow-hidden relative z-20 shadow-sm">
+        <div class="container mx-auto px-6 mb-6 text-center">
+            <span class="text-sm font-bold text-accent uppercase tracking-widest bg-accent/10 px-4 py-2 rounded-full border border-accent/20">نحن نعالج هذه الحالات وأكثر</span>
+        </div>
+        <div class="conditions-slider">
+            <div class="flex animate-scroll w-max gap-8 md:gap-12 px-6">
+                <!-- Condition Items -->
+                <span class="text-2xl font-bold text-slate-700 dark:text-slate-200 flex items-center"><i class="fa-solid fa-brain text-accent me-3"></i> أورام المخ</span>
+                <span class="text-2xl font-bold text-slate-700 dark:text-slate-200 flex items-center"><i class="fa-solid fa-bone text-accent me-3"></i> الانزلاق الغضروفي</span>
+                <span class="text-2xl font-bold text-slate-700 dark:text-slate-200 flex items-center"><i class="fa-solid fa-circle text-[8px] text-accent me-3"></i> استسقاء الرأس</span>
+                <span class="text-2xl font-bold text-slate-700 dark:text-slate-200 flex items-center"><i class="fa-solid fa-circle text-[8px] text-accent me-3"></i> ضيق القناة الشوكية</span>
+                <span class="text-2xl font-bold text-slate-700 dark:text-slate-200 flex items-center"><i class="fa-solid fa-bolt text-accent me-3"></i> ألم العصب الخامس</span>
+                <span class="text-2xl font-bold text-slate-700 dark:text-slate-200 flex items-center"><i class="fa-solid fa-circle text-[8px] text-accent me-3"></i> أورام الغدة النخامية</span>
+                <span class="text-2xl font-bold text-slate-700 dark:text-slate-200 flex items-center"><i class="fa-solid fa-circle text-[8px] text-accent me-3"></i> أورام الحبل الشوكي</span>
+                <span class="text-2xl font-bold text-slate-700 dark:text-slate-200 flex items-center"><i class="fa-solid fa-hand-holding-medical text-accent me-3"></i> متلازمة النفق الرسغي</span>
+                <span class="text-2xl font-bold text-slate-700 dark:text-slate-200 flex items-center"><i class="fa-solid fa-crutch text-accent me-3"></i> كسور الفقرات</span>
+                <span class="text-2xl font-bold text-slate-700 dark:text-slate-200 flex items-center"><i class="fa-solid fa-circle text-[8px] text-accent me-3"></i> تشوهات الجمجمة</span>
+                <span class="text-2xl font-bold text-slate-700 dark:text-slate-200 flex items-center"><i class="fa-solid fa-circle text-[8px] text-accent me-3"></i> تمدد الأوعية الدموية</span>
+                <span class="text-2xl font-bold text-slate-700 dark:text-slate-200 flex items-center"><i class="fa-solid fa-circle text-[8px] text-accent me-3"></i> التهاب الاعصاب</span>
+                <span class="text-2xl font-bold text-slate-700 dark:text-slate-200 flex items-center"><i class="fa-solid fa-circle text-[8px] text-accent me-3"></i> جلطة المخ</span>
+                <span class="text-2xl font-bold text-slate-700 dark:text-slate-200 flex items-center"><i class="fa-solid fa-circle text-[8px] text-accent me-3"></i> عرق النسا</span>
+                
+                <!-- DUPLICATE FOR LOOP -->
+                <span class="text-2xl font-bold text-slate-700 dark:text-slate-200 flex items-center"><i class="fa-solid fa-brain text-accent me-3"></i> أورام المخ</span>
+                <span class="text-2xl font-bold text-slate-700 dark:text-slate-200 flex items-center"><i class="fa-solid fa-bone text-accent me-3"></i> الانزلاق الغضروفي</span>
+                <span class="text-2xl font-bold text-slate-700 dark:text-slate-200 flex items-center"><i class="fa-solid fa-circle text-[8px] text-accent me-3"></i> استسقاء الرأس</span>
+                <span class="text-2xl font-bold text-slate-700 dark:text-slate-200 flex items-center"><i class="fa-solid fa-circle text-[8px] text-accent me-3"></i> ضيق القناة الشوكية</span>
+                <span class="text-2xl font-bold text-slate-700 dark:text-slate-200 flex items-center"><i class="fa-solid fa-bolt text-[10px] text-accent me-3"></i> ألم العصب الخامس</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 md:py-24 bg-white dark:bg-slate-900 transition-colors">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12 md:mb-16" data-aos="fade-up">
+                <span class="text-accent font-bold tracking-wider text-sm uppercase">مسيرة التميز</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-primary dark:text-white mt-2">رحلة علمية تمتد لأكثر من 15 عاماً</h2>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6" data-aos="fade-right">
+                    <div class="glass-panel p-6 rounded-2xl border-l-4 border-accent hover:shadow-lg transition group bg-white dark:bg-slate-800">
+                        <h4 class="font-bold text-primary dark:text-white text-lg group-hover:text-accent transition">استشاري جراحة المخ والأعصاب</h4>
+                        <p class="text-sm md:text-base text-slate-600 dark:text-slate-300 mt-2">حالياً - أيرلندا (Telemedicine)</p>
+                    </div>
+                    <div class="glass-panel p-6 rounded-2xl border-l-4 border-blue-500 hover:shadow-lg transition group bg-white dark:bg-slate-800">
+                        <h4 class="font-bold text-primary dark:text-white text-lg group-hover:text-blue-500 transition">عضوية المجلس الطبي الأيرلندي (IMC)</h4>
+                        <p class="text-sm md:text-base text-slate-600 dark:text-slate-300 mt-2">2018 - دبلن، أيرلندا</p>
+                    </div>
+                    <div class="glass-panel p-6 rounded-2xl border-l-4 border-purple-500 hover:shadow-lg transition group bg-white dark:bg-slate-800">
+                        <h4 class="font-bold text-primary dark:text-white text-lg group-hover:text-purple-500 transition">زمالة كلية الجراحين الملكية (FRCS)</h4>
+                        <p class="text-sm md:text-base text-slate-600 dark:text-slate-300 mt-2">2015 - لندن، المملكة المتحدة</p>
+                    </div>
+                    <div class="glass-panel p-6 rounded-2xl border-l-4 border-orange-500 hover:shadow-lg transition group bg-white dark:bg-slate-800">
+                        <h4 class="font-bold text-primary dark:text-white text-lg">البورد العربي & الزمالة المصرية</h4>
+                        <p class="text-sm md:text-base text-slate-600 dark:text-slate-300 mt-2">2009 - القاهرة، مصر</p>
+                    </div>
+                </div>
+                
+                <div class="relative hidden md:block" data-aos="fade-left">
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="bg-slate-50 dark:bg-slate-800 p-8 rounded-3xl text-center shadow-md border border-slate-100 dark:border-slate-700">
+                            <h3 class="text-4xl font-bold text-accent font-english">+15</h3>
+                            <p class="text-sm text-slate-500 mt-2 font-bold">سنة خبرة</p>
+                        </div>
+                        <div class="bg-slate-50 dark:bg-slate-800 p-8 rounded-3xl text-center shadow-md border border-slate-100 dark:border-slate-700">
+                            <h3 class="text-4xl font-bold text-blue-500 font-english">+1000</h3>
+                            <p class="text-sm text-slate-500 mt-2 font-bold">عملية ناجحة</p>
+                        </div>
+                        <div class="col-span-2 bg-slate-50 dark:bg-slate-800 p-8 rounded-3xl text-center shadow-md border border-slate-100 dark:border-slate-700">
+                            <i class="fa-solid fa-globe text-4xl text-purple-500 mb-3"></i>
+                            <h3 class="font-bold text-primary dark:text-white text-xl">خبرة دولية</h3>
+                            <p class="text-sm text-slate-500 font-bold mt-1">مصر - بريطانيا - أيرلندا</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW SECTION: Media / Video -->
+    <section id="media" class="py-20 bg-slate-50 dark:bg-slate-800 transition-colors">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <span class="text-accent font-bold tracking-wider text-sm uppercase">لقاءات إعلامية</span>
+                <h2 class="text-3xl font-bold text-primary dark:text-white mt-2">شرح مبسط للحالات المعقدة</h2>
+                <p class="text-slate-500 mt-2">لقاءات توعوية مع د. علي عبدالله</p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto" data-aos="zoom-in">
+                <!-- Video Container - Responsive & Local File Support -->
+                <div class="glass-panel p-4 rounded-3xl relative overflow-hidden group">
+                    <div class="absolute top-0 left-0 w-full h-full bg-accent/5 opacity-0 group-hover:opacity-100 transition duration-500 pointer-events-none"></div>
+                    <div class="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-700 bg-black">
+                        
+                        <!-- Local Video File -->
+                        <video class="w-full h-full object-contain" controls poster="https://placehold.co/800x450/0f172a/ffffff?text=Click to watch">
+                            <source src="dr-ali-video.mp4" type="video/mp4">
+                            متصفحك لا يدعم تشغيل الفيديو.
+                        </video>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How Telemedicine Works -->
+    <section id="how-it-works" class="py-16 md:py-24 bg-white dark:bg-slate-900 transition-colors">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12 md:mb-16" data-aos="fade-up">
+                <span class="text-accent font-bold tracking-wider text-sm uppercase">مسار الخدمة</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-primary dark:text-white mt-2">كيف تعمل العيادة الإلكترونية؟</h2>
+                <p class="text-slate-600 dark:text-slate-300 mt-4 text-base md:text-lg">3 خطوات بسيطة للحصول على تشخيص دقيق</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div class="glass-panel p-8 md:p-10 rounded-[2rem] hover:-translate-y-2 transition duration-300 bg-slate-50 dark:bg-slate-800" data-aos="fade-up" data-aos-delay="0">
+                    <div class="w-16 h-16 mx-auto bg-primary text-white rounded-full flex items-center justify-center font-bold text-2xl mb-6 shadow-lg">1</div>
+                    <h3 class="font-bold text-xl dark:text-white mb-3">إرسال البيانات</h3>
+                    <p class="text-base text-slate-500 dark:text-slate-400 leading-relaxed">أرسل صور الأشعة والتقارير الطبية عبر واتساب أو تيليجرام.</p>
+                </div>
+                <div class="glass-panel p-8 md:p-10 rounded-[2rem] hover:-translate-y-2 transition duration-300 bg-slate-50 dark:bg-slate-800" data-aos="fade-up" data-aos-delay="150">
+                    <div class="w-16 h-16 mx-auto bg-accent text-white rounded-full flex items-center justify-center font-bold text-2xl mb-6 shadow-lg">2</div>
+                    <h3 class="font-bold text-xl dark:text-white mb-3">دراسة الحالة</h3>
+                    <p class="text-base text-slate-500 dark:text-slate-400 leading-relaxed">يقوم الطبيب بمراجعة دقيقة للملفات ومقارنتها بالتاريخ المرضي للوصول للتشخيص.</p>
+                </div>
+                <div class="glass-panel p-8 md:p-10 rounded-[2rem] hover:-translate-y-2 transition duration-300 bg-slate-50 dark:bg-slate-800" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-16 h-16 mx-auto bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-2xl mb-6 shadow-lg">3</div>
+                    <h3 class="font-bold text-xl dark:text-white mb-3">الاستشارة</h3>
+                    <p class="text-base text-slate-500 dark:text-slate-400 leading-relaxed">تحديد موعد لمكالمة فيديو أو استلام تقرير مفصل بخطة العلاج.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Medical Tips -->
+    <section id="tips" class="py-16 md:py-24 bg-slate-50 dark:bg-slate-800 transition-colors">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12 md:mb-16" data-aos="fade-up">
+                <span class="text-accent font-bold tracking-wider text-sm uppercase">توعية صحية</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-primary dark:text-white mt-2">إرشادات لحياة صحية أفضل</h2>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="glass-panel p-6 md:p-8 rounded-3xl text-center hover:bg-white dark:hover:bg-slate-700 transition" data-aos="fade-up">
+                    <i class="fa-solid fa-chair text-4xl text-blue-500 mb-6 block"></i>
+                    <h3 class="font-bold text-lg dark:text-white mb-2">الجلوس الصحيح</h3>
+                    <p class="text-sm text-slate-500 dark:text-slate-400">تجنب الانحناء لفترات طويلة أمام الشاشات.</p>
+                </div>
+                <div class="glass-panel p-6 md:p-8 rounded-3xl text-center hover:bg-white dark:hover:bg-slate-700 transition" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fa-solid fa-glass-water text-4xl text-purple-500 mb-6 block"></i>
+                    <h3 class="font-bold text-lg dark:text-white mb-2">الصداع والماء</h3>
+                    <p class="text-sm text-slate-500 dark:text-slate-400">الجفاف هو أحد أهم مسببات الصداع اليومي.</p>
+                </div>
+                <div class="glass-panel p-6 md:p-8 rounded-3xl text-center hover:bg-white dark:hover:bg-slate-700 transition" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fa-solid fa-person-running text-4xl text-teal-500 mb-6 block"></i>
+                    <h3 class="font-bold text-lg dark:text-white mb-2">الحركة المستمرة</h3>
+                    <p class="text-sm text-slate-500 dark:text-slate-400">المشي يعزز الدورة الدموية ويقوي عضلات الظهر.</p>
+                </div>
+                <div class="glass-panel p-6 md:p-8 rounded-3xl text-center hover:bg-white dark:hover:bg-slate-700 transition" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fa-solid fa-triangle-exclamation text-4xl text-red-500 mb-6 block"></i>
+                    <h3 class="font-bold text-lg dark:text-white mb-2">علامات الخطر</h3>
+                    <p class="text-sm text-slate-500 dark:text-slate-400">التنميل وضعف الحركة يستدعي استشارة فورية.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery (Expanded) -->
+    <section id="gallery" class="py-16 md:py-24 bg-white dark:bg-slate-900 transition-colors">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary dark:text-white">معرض الصور</h2>
+                <p class="text-slate-500 mt-2">اضغط على الصورة للتكبير</p>
+            </div>
+            <!-- Expanded Grid (6 Images) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Img 1 -->
+                <div class="rounded-3xl overflow-hidden h-64 shadow-lg cursor-pointer group relative" onclick="openLightbox(this.querySelector('img').src)">
+                    <img src="ali4.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                </div>
+                <!-- Img 2 -->
+                <div class="rounded-3xl overflow-hidden h-64 shadow-lg cursor-pointer group relative" onclick="openLightbox(this.querySelector('img').src)">
+                    <img src="ali5.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                </div>
+                <!-- Img 3 -->
+                <div class="rounded-3xl overflow-hidden h-64 shadow-lg cursor-pointer group relative" onclick="openLightbox(this.querySelector('img').src)">
+                    <img src="ali6.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                </div>
+                <!-- Img 4 (New) -->
+                <div class="rounded-3xl overflow-hidden h-64 shadow-lg cursor-pointer group relative" onclick="openLightbox(this.querySelector('img').src)">
+                    <img src="ali7.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                </div>
+                <!-- Img 5 (New) -->
+                <div class="rounded-3xl overflow-hidden h-64 shadow-lg cursor-pointer group relative" onclick="openLightbox(this.querySelector('img').src)">
+                    <img src="ali8.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                </div>
+                 <!-- Img 6 (New) -->
+                 <div class="rounded-3xl overflow-hidden h-64 shadow-lg cursor-pointer group relative" onclick="openLightbox(this.querySelector('img').src)">
+                    <img src="doctor-ali-abdalla-neurosurgery-1.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment -->
+    <section id="payment" class="py-16 md:py-20 bg-slate-50 dark:bg-slate-800 transition-colors">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12 md:mb-16" data-aos="fade-up">
+                <span class="text-accent font-bold tracking-wider text-sm uppercase">خيارات السداد</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-primary dark:text-white mt-2">طرق دفع سهلة</h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="glass-panel p-8 rounded-3xl text-center border-t-4 border-green-600 bg-white dark:bg-slate-900" data-aos="fade-up">
+                    <h3 class="font-bold text-xl dark:text-white mb-2">السودان</h3>
+                    <div class="text-base font-bold text-green-700 dark:text-green-500">Bank of Khartoum (بنكك)</div>
+                </div>
+                <div class="glass-panel p-8 rounded-3xl text-center border-t-4 border-red-500 bg-white dark:bg-slate-900" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="font-bold text-xl dark:text-white mb-2">مصر</h3>
+                    <div class="text-base font-bold text-purple-600 dark:text-purple-400">InstaPay (إنستا باي)</div>
+                </div>
+                <div class="glass-panel p-8 rounded-3xl text-center border-t-4 border-blue-500 bg-white dark:bg-slate-900" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="font-bold text-xl dark:text-white mb-2">دولي</h3>
+                    <div class="text-base font-bold text-blue-800 dark:text-blue-400">PayPal / Western Union</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="py-24 bg-white dark:bg-slate-900 transition-colors">
+        <div class="container mx-auto px-4 md:px-6">
+            <div class="max-w-4xl mx-auto glass-panel p-6 md:p-12 rounded-[2rem] shadow-2xl border border-white/50 bg-slate-50 dark:bg-slate-800">
+                <div class="text-center mb-8">
+                    <h2 class="text-3xl font-bold text-primary dark:text-white">حجز استشارة</h2>
+                    <p class="text-sm text-slate-500 mt-2">اختر نوع الحالة</p>
+                </div>
+                
+                <!-- Radio Cards Grid - Stack on mobile -->
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+                    <label class="cursor-pointer group">
+                        <input type="radio" name="triage" value="urgent" class="hidden triage-option">
+                        <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 flex flex-col items-center gap-2 transition-all text-center h-full justify-center hover:shadow-md">
+                            <i class="fa-solid fa-triangle-exclamation text-xl text-red-500"></i>
+                            <div><h4 class="font-bold text-sm dark:text-white">توجيه طارئ</h4><p class="text-[10px] text-slate-500">ألم شديد</p></div>
+                        </div>
+                    </label>
+                    <label class="cursor-pointer group">
+                        <input type="radio" name="triage" value="routine" class="hidden triage-option" checked>
+                        <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 flex flex-col items-center gap-2 transition-all text-center h-full justify-center hover:shadow-md">
+                            <i class="fa-solid fa-video text-xl text-teal-500"></i>
+                            <div><h4 class="font-bold text-sm dark:text-white">استشارة مرئية</h4><p class="text-[10px] text-slate-500">مناقشة حالة</p></div>
+                        </div>
+                    </label>
+                    <label class="cursor-pointer group">
+                        <input type="radio" name="triage" value="report" class="hidden triage-option">
+                        <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 flex flex-col items-center gap-2 transition-all text-center h-full justify-center hover:shadow-md">
+                            <i class="fa-solid fa-file-contract text-xl text-blue-500"></i>
+                            <div><h4 class="font-bold text-sm dark:text-white">قراءة أشعة</h4><p class="text-[10px] text-slate-500">تفسير تقارير</p></div>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="space-y-4 max-w-md mx-auto">
+                    <input type="text" id="p-name" placeholder="اسم المريض" class="w-full p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-accent text-center dark:text-white text-sm">
+                    <textarea id="p-desc" rows="3" placeholder="وصف الحالة (اختياري)..." class="w-full p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-accent text-center dark:text-white resize-none text-sm"></textarea>
+                    
+                    <div class="relative text-center">
+                         <input type="file" id="p-files" multiple class="hidden" onchange="updateFileCount()">
+                        <label for="p-files" class="cursor-pointer inline-flex items-center gap-2 text-xs text-slate-500 hover:text-accent transition border border-dashed border-slate-300 dark:border-slate-600 px-4 py-3 rounded-lg w-full justify-center">
+                            <i class="fa-solid fa-paperclip"></i> <span>إرفاق صور / تقارير</span>
+                        </label>
+                        <p id="file-count" class="text-xs text-accent mt-2 hidden font-bold"></p>
+                    </div>
+
+                    <button onclick="openBookingModal()" class="w-full py-4 rounded-xl bg-primary text-white font-bold shadow-lg hover:scale-[1.02] transition-all flex justify-center items-center gap-2 text-sm md:text-base">
+                        <span>متابعة الحجز</span> <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer with Social Icons -->
+    <footer class="bg-primary dark:bg-slate-950 text-white py-12 pb-24 md:pb-12 text-center">
+        <div class="container mx-auto px-6">
+            <h2 class="text-2xl font-bold mb-6 flex justify-center items-center gap-2"><i class="fa-solid fa-brain text-accent"></i> د. علي عبدالله</h2>
+            
+            <div class="flex justify-center gap-6 mb-8">
+                <a href="https://www.facebook.com/share/1FYu9KTuTL/" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-blue-600 transition"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://wa.me/201118502852" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-black transition"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/medo_m.2?igsh=MTd0eHg3YWl3Z3U2ag==" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-pink-600 transition"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            
+            <p class="text-xs text-slate-400">جميع الحقوق محفوظة &copy; <span id="year"></span></p>
+        </div>
+    </footer>
+
+    <!-- Modals & Widgets -->
+    
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <!-- Booking Modal -->
+    <div id="booking-modal" class="fixed inset-0 z-[100] hidden">
+        <div class="absolute inset-0 bg-black/70 backdrop-blur-sm" onclick="closeBookingModal()"></div>
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90%] max-w-sm p-4">
+            <div class="bg-white dark:bg-slate-800 rounded-3xl p-6 shadow-2xl relative text-center">
+                <button onclick="closeBookingModal()" class="absolute top-4 right-4 text-slate-400"><i class="fa-solid fa-xmark text-xl"></i></button>
+                <h3 class="text-xl font-bold dark:text-white mb-2">وسيلة التواصل</h3>
+                <p class="text-xs text-slate-500 mb-6">سيتم نسخ الرسالة تلقائياً.</p>
+                <div class="space-y-3">
+                    <button onclick="proceedBooking('whatsapp')" class="w-full py-3 rounded-xl bg-[#25D366] text-white font-bold flex items-center justify-center gap-2"><i class="fa-brands fa-whatsapp text-xl"></i> واتساب</button>
+                    <button onclick="proceedBooking('telegram')" class="w-full py-3 rounded-xl bg-[#0088cc] text-white font-bold flex items-center justify-center gap-2"><i class="fa-brands fa-telegram text-xl"></i> تيليجرام</button>
+                    <button onclick="proceedBooking('messenger')" class="w-full py-3 rounded-xl bg-[#006AFF] text-white font-bold flex items-center justify-center gap-2"><i class="fa-brands fa-facebook-messenger text-xl"></i> ماسنجر</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast -->
+    <div id="toast" class="fixed bottom-24 left-1/2 transform -translate-x-1/2 bg-slate-800 text-white px-6 py-3 rounded-full shadow-2xl z-[110] transition-opacity duration-300 opacity-0 pointer-events-none flex items-center gap-2 text-sm w-max max-w-[90%]">
+        <i class="fa-solid fa-check-circle text-green-400"></i><span id="toast-msg">تم نسخ الشكوى!</span>
+    </div>
+
+    <!-- AI Chat -->
+    <button onclick="toggleChat()" class="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-accent text-white shadow-lg flex items-center justify-center text-2xl hover:scale-110 transition animate-bounce"><i class="fa-solid fa-comments"></i></button>
+    
+    <div id="chat-widget" class="chat-widget bg-white dark:bg-slate-800 rounded-2xl shadow-2xl overflow-hidden border border-slate-200 dark:border-slate-700 flex flex-col">
+        <div class="bg-primary p-4 flex justify-between items-center text-white">
+            <span class="font-bold text-sm">المساعد الذكي</span>
+            <button onclick="toggleChat()"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="p-4 h-64 overflow-y-auto bg-slate-50 dark:bg-slate-900 text-sm space-y-3" id="chat-body">
+            <div class="bg-white dark:bg-slate-800 p-2 rounded-lg shadow-sm border border-slate-100 dark:border-slate-700">مرحباً بك. كيف يمكنني مساعدتك؟</div>
+        </div>
+        <div class="p-4 bg-white dark:bg-slate-800 border-t border-slate-100 dark:border-slate-700 grid grid-cols-2 gap-2">
+            <button onclick="sendMsg('حجز')" class="text-xs bg-slate-100 dark:bg-slate-700 p-2 rounded-lg dark:text-white">📅 حجز</button>
+            <button onclick="sendMsg('تكلفة')" class="text-xs bg-slate-100 dark:bg-slate-700 p-2 rounded-lg dark:text-white">💰 تكلفة</button>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        window.addEventListener('load', () => {
+            document.getElementById('preloader').style.display = 'none';
+            document.getElementById('year').innerText = new Date().getFullYear();
+            AOS.init({ duration: 800, once: true });
+            typeWriter();
+        });
+
+        // Typewriter
+        const texts = ["جراحات المخ", "العمود الفقري", "الأورام"];
+        let count = 0, index = 0, currentText = "", letter = "";
+        function typeWriter() {
+            if (count === texts.length) count = 0;
+            currentText = texts[count];
+            letter = currentText.slice(0, ++index);
+            const el = document.getElementById('typewriter-text');
+            if(el) el.textContent = letter;
+            if (letter.length === currentText.length) { count++; index = 0; setTimeout(typeWriter, 2000); }
+            else { setTimeout(typeWriter, 100); }
+        }
+
+        // Triage
+        let type = 'routine';
+        const msgTriage = document.getElementById('triage-msg');
+        document.querySelectorAll('input[name="triage"]').forEach(opt => opt.addEventListener('change', e => {
+            type = e.target.value;
+            if(type === 'urgent') {
+                msgTriage.innerHTML = '<span class="text-red-600 font-bold">توجيه عاجل: توجه لأقرب مستشفى إذا كان الألم لا يحتمل.</span>';
+            } else if(type === 'report') {
+                msgTriage.innerHTML = '<span class="text-blue-600">يرجى تجهيز صور واضحة للتقارير والأشعة.</span>';
+            } else {
+                msgTriage.innerHTML = '<span>سيتم تحديد موعد لمكالمة الفيديو.</span>';
+            }
+        }));
+
+        // Booking
+        let bookingData = {};
+        function updateFileCount() {
+            const input = document.getElementById('p-files');
+            const label = document.getElementById('file-count');
+            if(input.files.length > 0) {
+                label.innerText = `تم تحديد ${input.files.length} ملفات جاهزة للإرسال`;
+                label.classList.remove('hidden');
+            }
+        }
+
+        function openBookingModal() {
+            const name = document.getElementById('p-name').value;
+            const desc = document.getElementById('p-desc').value;
+            if(!name) { alert('الاسم مطلوب'); return; }
+            bookingData = { name, desc: desc || 'لا يوجد وصف', type };
+            document.getElementById('booking-modal').classList.remove('hidden');
+        }
+
+        function closeBookingModal() {
+            document.getElementById('booking-modal').classList.add('hidden');
+        }
+
+        function proceedBooking(platform) {
+            let prefix = type === 'urgent' ? "🔴 [طوارئ]" : (type === 'report' ? "🔵 [أشعة]" : "🟢 [استشارة]");
+            let text = `${prefix}\nالاسم: ${bookingData.name}\nالأعراض: ${bookingData.desc}`;
+            
+            const fileInput = document.getElementById('p-files');
+            const hasFiles = fileInput && fileInput.files.length > 0;
+            if(hasFiles) text += `\n\n📎 *مرفقات:* لدي عدد (${fileInput.files.length}) صور أشعة/تقارير سأرسلها لك الآن.`;
+
+            // Clipboard Fallback
+            const textArea = document.createElement("textarea");
+            textArea.value = text;
+            textArea.style.position = "fixed";
+            document.body.appendChild(textArea);
+            textArea.focus();
+            textArea.select();
+            try { 
+                document.execCommand('copy'); 
+                if(hasFiles) showToast("تم نسخ البيانات! لا تنسَ إرفاق الصور.");
+                else showToast("تم نسخ البيانات! الصقها في المحادثة.");
+            } catch (err) {}
+            document.body.removeChild(textArea);
+
+            let url = "";
+            if(platform === 'whatsapp') {
+                url = `https://wa.me/201118502852?text=${encodeURIComponent(text)}`;
+                window.open(url, '_blank');
+            } else {
+                if(platform === 'telegram') url = "https://t.me/+201118502852"; 
+                else if(platform === 'messenger') url = "https://m.me/201118502852"; 
+                setTimeout(() => window.open(url, '_blank'), 500);
+            }
+            closeBookingModal();
+        }
+
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            const toastMsg = document.getElementById('toast-msg');
+            if(message) toastMsg.innerText = message;
+            toast.classList.remove('opacity-0');
+            setTimeout(() => toast.classList.add('opacity-0'), 3000);
+        }
+
+        // Close Mobile Menu
+        function closeMenu() {
+            document.getElementById('mobile-menu').classList.add('hidden');
+        }
+
+        // Theme Toggle
+        function toggleTheme() {
+            document.documentElement.classList.toggle('dark');
+            localStorage.theme = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
+        }
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        }
+
+        // Lightbox
+        function openLightbox(src) {
+            document.getElementById('lightbox').classList.add('show');
+            document.getElementById('lightbox-img').src = src;
+        }
+        function closeLightbox() { document.getElementById('lightbox').classList.remove('show'); }
+
+        // Chat
+        function toggleChat() { document.getElementById('chat-widget').classList.toggle('active'); }
+        function sendMsg(msg) {
+            const body = document.getElementById('chat-body');
+            body.innerHTML += `<div class="text-left"><span class="bg-accent text-white p-2 rounded-lg text-xs inline-block mb-2">${msg}</span></div>`;
+            body.scrollTop = body.scrollHeight;
+            setTimeout(() => {
+                let reply = "تفاصيل أكثر عبر واتساب.";
+                if(msg === 'حجز') reply = "استخدم نموذج الحجز أعلاه.";
+                else if(msg === 'تكلفة') reply = "تختلف حسب نوع الاستشارة.";
+                else if(msg === 'تواصل') reply = "واتساب، تيليجرام، أو ماسنجر.";
+                else if(msg === 'طوارئ') reply = "توجه لأقرب مستشفى فوراً.";
+                
+                body.innerHTML += `<div class="bg-slate-100 dark:bg-slate-700 p-3 rounded-2xl rounded-tr-none shadow-sm text-slate-600 dark:text-slate-300 border border-slate-100 dark:border-slate-700 text-xs">${reply}</div>`;
+                body.scrollTop = body.scrollHeight;
+            }, 500);
+        }
+
+        // 3D Tilt
+        document.querySelectorAll('.tilt-card').forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                const rotateX = ((y - centerY) / centerY) * -5;
+                const rotateY = ((x - centerX) / centerX) * 5;
+                card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+            });
+            card.addEventListener('mouseleave', () => card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0)');
+        });
+
+        // Custom Cursor
+        const cursorDot = document.querySelector('.cursor-dot');
+        const cursorOutline = document.querySelector('.cursor-outline');
+        window.addEventListener('mousemove', (e) => {
+            if(cursorDot) { cursorDot.style.left = `${e.clientX}px`; cursorDot.style.top = `${e.clientY}px`; }
+            if(cursorOutline) cursorOutline.animate({ left: `${e.clientX}px`, top: `${e.clientY}px` }, { duration: 500, fill: "forwards" });
+        });
+    </script>
+</body>
+</html>
